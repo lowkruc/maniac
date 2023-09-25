@@ -1,0 +1,1349 @@
+{
+    "success": true,
+    "data": [
+      {
+        "product_name": "Scraper Uploader Products",
+        "product_slug": "products_grabber_uploader",
+        "product_desc": "Scraper dan Uploader produk untuk Shopee, Tokopedia, dan Bukalapak",
+        "product_long_desc": "<p><!-- wp:paragraph --></p>\r\n<p>Scraper Uploader Products adalah tool dalam Qlobot Launcher untuk mengambil (scrap) ribuan produk dari marketplace (seperti: Tokopedia, Shopee, Bukalapak, Jakmall, dll) dengan mudah.</p>\r\n<p><!-- /wp:paragraph --> <!-- wp:paragraph --></p>\r\n<p>Selain untuk mengambil produk, tool ini juga sudah dilengkapi dengan Uploader yang berfungsi untuk mengupload produk secara masal ke berbagai akun toko sekaligus.</p>\r\n<p><!-- /wp:paragraph --> <!-- wp:heading {\"level\":4} --></p>\r\n<h4>Fitur dari Scraper Uploader Products</h4>\r\n<p><!-- /wp:heading --> <!-- wp:paragraph --></p>\r\n<p>Berikut adalah gambaran singkat tentang fitur-fitur yang ada di dalam Tool Scraper Uploader Products</p>\r\n<p><!-- /wp:paragraph --> <!-- wp:list --></p>\r\n<ul>\r\n<li>Scraper (Mengambil Produk)\r\n<ul>\r\n<li>Sumber yang didukung:<br />Shopee, Tokopedia, Bukalapak, Jakmall, dan Website Lainnya (Scrap pada website menggunakan QSP)</li>\r\n<li>Data Analyzer</li>\r\n</ul>\r\n<ul>\r\n<li>Qlobot Scrap Plugins</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<p><!-- /wp:list --> <!-- wp:list --></p>\r\n<ul>\r\n<li>Uploader (Mengupload Produk)\r\n<ul>\r\n<li>Mode Bot: Human atau Bot</li>\r\n<li>Mode Browser: Visible Browser, Hidden Browser, Tanpa Browser</li>\r\n<li>Spinner Nama &amp; Deskripsi Produk</li>\r\n<li>Random &amp; Dynamic Markup Setting</li>\r\n<li>Mapping Category</li>\r\n<li>Pengisian Spesifikasi Produk Otomatis</li>\r\n<li>Integrasi Watermark</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<p><!-- /wp:list --> <!-- wp:list --></p>\r\n<ul>\r\n<li>Export untuk Mass Upload\r\n<ul>\r\n<li>Shopee Mass Upload</li>\r\n<li>Tokopedia Mass Upload</li>\r\n<li>Bukalapak Mass Upload</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<p><!-- /wp:list --></p>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/products_grabber_uploader_thumb_1.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/products-grabber-uploader_icon.png",
+        "product_url": "",
+        "product_help_url": "https://help.qlobot.com/topic/grab-upload-produk/",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/products_grabber_uploader",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/21",
+        "version": [
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=1KlmI2OzXTDDv9UFmE-b1pOWEwv8Gmj_y",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1LxyFlsKT5CdGJrcy-05GzPa5X7b00Ua3",
+            "changelog_desc": "<p>- [FIXED] upload process force close&nbsp;<br />- [IMPROVE] log and report<br />- [FIXED] bug grab berhenti<br />- [FIXED] bug grab tokopedia<br />- [IMRPOVE] export CSV disertai dengan gambar produk<br />- [FIXED] bug upload kategori kosong</p>"
+          },
+          {
+            "version": "1.0.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1NSWwnaluEC0miqppfgttm6srYDfBeUAd",
+            "changelog_desc": "<p>- [ADD] Export sekaligus mendownload gambar produk<br />- [ADD] Upload - pause otomatis saat terjadi error 3 kali secara beruntun<br />- [FIXED] Grab tokopedia thumbnail utama hilang saat ada varian<br />- [FIXED] upload shopee kategori rekomendasi<br />- [FIXED] Upload varian (penyesuaian aturan variant marketplace)<br />- [FIXED] Grab tokopedia filter berdasarkan kota<br />- [FIXED] Grab product shopee varian tidak sesuai<br />- [IMPROVE] Export format CSV collection baru (Varian terpisah)</p>"
+          },
+          {
+            "version": "1.0.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1OWQ7n8VNfprWoo5DfejKXLas9KmdOOh3",
+            "changelog_desc": "<div>\r\n<div>- FIX: Upload Shopee \"Token Not Found\"</div>\r\n<div>- FIX: tidak bisa copy/paste mapping pada set mapping di export collection</div>\r\n<div>- FIX: login tokopedia menggunakan no hp</div>\r\n<div>- FIX: Uploader Bukalapak Gagal saat OTP aktif</div>\r\n<div>- FIX: Grab Shopee berhenti di 1200 produk</div>\r\n<div>- IMPROVE: Uploader Bukalapak: Pause jika ketemu OTP</div>\r\n<div>- FIX: export mass upload failed</div>\r\n<div>- FIX: Harga grab harga varian</div>\r\n<div>- ADD: Optional pause 3 kali gagal saat upload</div>\r\n<div>- IMPROVE: Pengaturan kategori upload</div>\r\n<div>- FIX: Upload tokopedia Upload failed: Something Wrong</div>\r\n</div>"
+          },
+          {
+            "version": "1.0.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=1ThA2cPF8pSBuHUAfvjd34CIdPp5fJ9LP",
+            "changelog_desc": "<div>\r\n<div>- FIX: Grabber tokopedia harga variant</div>\r\n<div>- FIX: Uploader shopee create product failed [massage: create product failed]</div>\r\n<div>- FIX: UI Upload template mass upload ketika pindah collection</div>\r\n<div>- FIX: Grabber bukalapak categori dengan filter kota</div>\r\n</div>"
+          },
+          {
+            "version": "1.1",
+            "download_url": "https://drive.google.com/uc?export=download&id=1PeIjyuNRSRGm0QqBWAnfyX1sCgSeeLpv",
+            "changelog_desc": "<p>- ADD: Direct upload tokopedia. Pengaturan Pre order &amp; Asuransi<br />- IMPROVE: set mapping otomatis (Grab &amp; upload ke MP yang sama)<br />- IMPROVE: Auto login shopee pause saat ada otp<br />- FIX: Grab tokopedia , varian tidak ikut ke grab<br />- FIX: Grab Shopee, Image Varian tidak ke-grab<br />- FIX: Grab Shopee saat varian produk ada stok kosong<br />- FIX: Limit grab List URLs</p>"
+          },
+          {
+            "version": "1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=10TrGEFIDG2INxC3XtTQ7Jh2xYbhAu3GW",
+            "changelog_desc": "<div>\r\n<div>- IMPROVE: UI Grab supaya lebih mudah untuk memulai Grab produk</div>\r\n<div>- IMRPOVE: Uploader shopee. judul produk diperbarui menjadi 255 huruf (penyesuaian pembaruan shopee)</div>\r\n<div>- FIX: Upload Tokopedia something wrong (penanganan variant)</div>\r\n<div>- FIX: Upload Shopee gagal mendapat kan data shipping (gagal refresh token)</div>\r\n<div>- FIX: Login Bukalapak Trigger Error</div>\r\n<div>- FIX: Grab product suppliyer shopee dengan search</div>\r\n<div>- FIX: Grab product suppliyer tokopedia dengan filter</div>\r\n<div>- FIX: Limit variant produk export mass upload shopee</div>\r\n<div>- IMRPOVE: Log ketika grab suppliyer dan supplier tidak ditemukan</div>\r\n<div>- ADD: Penambahan skip upload produk stok kosong</div>\r\n</div>"
+          },
+          {
+            "version": "1.2.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=10_VJ1aGsFFzSvINRueES4aBUeCVus-Ze",
+            "changelog_desc": "<p>-&nbsp;FIX: Limit grab multi list urls tidak berfungsi</p>"
+          },
+          {
+            "version": "1.2.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=11T-f6edYxGmVNKa4r4rhITNogXH5AtYc",
+            "changelog_desc": "<p>- FIX: scrape product via suppliyer di shopee failed<br />- FIX: sebagian kategori export mass uplaod shopee hilang<br />- FIX: Error hasil grab dari shopee pada produk tertentu<br />- ADD: Opsi grab harga setelah diskon</p>"
+          },
+          {
+            "version": "1.2.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=11iFqDi1eTrpLPc_6M8QuXONcZ3jDgo8x",
+            "changelog_desc": "<p>- FIX: grab shopee harga 0 di beberapa produk</p>"
+          },
+          {
+            "version": "1.2.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=12QISxCCiSOgjq92mI-7wokh1FWnhe7WD",
+            "changelog_desc": "<p>-&nbsp;Bug: verifikasi akun login shopee</p>"
+          },
+          {
+            "version": "1.2.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=15B6FjBXvWlqPEKnti4n5jSxDOFn3xF_o",
+            "changelog_desc": "<p>- ADD: Cloudinary mass upload tokopedia<br />- FIX: Grab bukalapak pakai jasa kirim jnt reg error<br />- IMPROVE: UI Produk Collection</p>"
+          },
+          {
+            "version": "1.2.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=1853FeBmkENgULUUewGyt9tDk4J542zhq",
+            "changelog_desc": "<p>- FIX: filter scrape shopee<br />- FIX: Scrape tokopedia paralel (penambahan dellay)<br />- FIX: Scrape jakmall failed</p>"
+          },
+          {
+            "version": "1.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=19wSgt_pWJxa6R3CFotR_RrpdH67h3EN5",
+            "changelog_desc": "<p>- IMRPOVE: Set Mapping Otomatis Check All saat pertama kali di klik set maping<br />- FIX: Scrap View &amp; Sold tidak sesuai<br />- ADD: Auto Otp Tokopedia<br />- ADD: Auto Verif Email Shopee<br />- ADD: Penambahan filter range dan check list Mass Upload</p>"
+          },
+          {
+            "version": "1.3.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1GAWQ5OnXaNgsl4Fkxkd1Rflds-yBejRe",
+            "changelog_desc": "<p>-&nbsp;FIX: Srcap shopee search category<br />-&nbsp;FIX: Jumlah grab tokopedia tidak sesuai<br />-&nbsp;FIX: Force min order shopee tidak sesuai<br />-&nbsp;FIX: Autentikator tokopedia tidak input otomatis<br />-&nbsp;FIX: Login akun baru tokopedia trigger error<br />-&nbsp;FIX: Upload no thumbnil download (failed download image shopee)</p>"
+          },
+          {
+            "version": "1.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=1ki07t_LsfBG5Ikd7aUN1_Lk2WMsLoNOK",
+            "changelog_desc": "<div>\r\n<div>- ADD: Input custom variant direct upload Tokopedia</div>\r\n<div>- ADD: Automated Mass Upload Tokopedia</div>\r\n<div>- ADD: Automated Mass Upload Shopee</div>\r\n<div>- ADD: Setmaping variant untuk export tokopedia</div>\r\n<div>- FIX: Upload shopee failed attribute is mandatory</div>\r\n<div>- FIX: Failed export tokopedia hasil scrape Shopee</div>\r\n<div>- FIX: Upload Tokopedia nama terlalu panjang</div>\r\n<div>- FIX: Upload Tokopedia failed mengandung karakter emoji terlarang</div>\r\n<div>- FIX: Perubahan template mass upload Shopee</div>\r\n</div>"
+          },
+          {
+            "version": "1.4.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1l8WA1D40f9UQeoxAzl5pDZB6zOOKW9xc",
+            "changelog_desc": "<div>\r\n<div>- FIX: Export mass upload Tokopedia error tidak diketahui</div>\r\n<div>- FIX: Upload Shopee failed attribut mandatory (Update Category)</div>\r\n<div>- FIX: Failed upload Shopee (Your shop can not edit image size chart)</div>\r\n<div>- FIX: Upload Shopee something wrong</div>\r\n<div>- FIX: Direct mass upload Shopee force close</div>\r\n<div>- FIX: Direct upload Tokopedia \"something wrong\"</div>\r\n<div>- FIX: Upload template export varian Tokopedia tidak sesuai</div>\r\n</div>"
+          },
+          {
+            "version": "1.4.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1mUEzgqx6786xEe-rLicC7tU-sbDZFFja",
+            "changelog_desc": "<p>- FIX: Upload Tokopedia product yang ada varian nya failed (berat variant)<br />- FIX: Export template mass upload Tokopedia dengan varian perlu berat</p>"
+          },
+          {
+            "version": "1.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=1nWY1tTCr2b4Bs55NepU5MVNrFZR9HBTA",
+            "changelog_desc": "<div>\r\n<div>- ADD: Scraper Lazada</div>\r\n<div>- ADD: Scraper Blibli</div>\r\n<div>- ADD: Spilt export mass upload Tokopedia<br />\r\n<div>- FIX: Scrape Shopee tiba-tiba berhenti</div>\r\n<div>- FIX: Proses direct mass upload Tokopedia tidak berjalan tetep 0%, failed tapi produk terupload</div>\r\n</div>\r\n</div>"
+          },
+          {
+            "version": "1.5.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1nz0nrOiZUEMGTBaqjzKnPxcMD7Dd7JD0",
+            "changelog_desc": "<p>-&nbsp;FIXED: Scrape Shopee failed (pembaruan Shopee)</p>"
+          },
+          {
+            "version": "1.5.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1ov2_sP51AHxx0lSXnrsD7TxtoYVYqxDK",
+            "changelog_desc": "<p>-&nbsp;FIXED: Login Tokopedia \"Permintaanmu gagal diproses\" di beberapa device<br />- FIXED: Scrape Shopee Failed</p>"
+          },
+          {
+            "version": "1.5.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1qiwwXIyigY3XE_MspUAmUm_C0BzPEs-Y",
+            "changelog_desc": "<p>-&nbsp;IMPROVE: Proses scrap Shopee<br />- FIXED: Scrape Jakmall hanya dapat 60 produk saja<br />- IMPROVE: Upload Tokopedia stock varian kosong menjadi nonactive<br />- FIXED: Proses autoverif Shopee tidak berjalan<br />- FIXED: Direct upload Shopee failed attribute<br />- FIXED: Scrape Lazada hasil acak<br />- FIXED: Harga scrape bukan harga tertinggi<br />- FIXED: Scraper uploader Shopee failed</p>"
+          },
+          {
+            "version": "1.5.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=1rDcVLMZayyQTzNZL42GcPCf3E4dxs_Qc",
+            "changelog_desc": "<p>- IMPROVE: Autologin Tokopedia pause permintaan gagal diproses<br />-&nbsp;FIXED: Scrape Shopee hasil tidak sesuai<br />- FIXED: Scrape Shopee banyak failed</p>"
+          },
+          {
+            "version": "1.5.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=1sa6FI15n1RSJl1RYVLFncSM0KY1q1gdt",
+            "changelog_desc": "<p>- FIX: Upload Shopee, autologin Gagal memproses Login Shopee<br />- FIX: Direct mass upload Tokopedia asuransi tidak sesuai<br />- FIX: Preorder direct mass upload Tokopedia tidak sesuai</p>"
+          },
+          {
+            "version": "1.5.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=1tZtRjIKxX8gKaHF0KEtDYyahRm3SKSVQ",
+            "changelog_desc": "<p>-&nbsp;FIX: Scrape shopee failed indexing url dan detail produk<br />- FIX: Scrape shopee dengan jumalh 40rb produk keatas muncul result error</p>"
+          },
+          {
+            "version": "1.5.7",
+            "download_url": "https://drive.google.com/uc?export=download&id=18EB6R8aKucUWhEhcypdwqsrldHeC1CQ_",
+            "changelog_desc": "<p>Minimal versi Qlobot Launcher (1.7.1)</p>\r\n<p>- FIX: Error Scrape Shopee<br />- FIX: Error Export XLSX untuk file mass upload tokopedia (template baru)<br />- FIX: Error Direct Mass Upload Tokopedia</p>"
+          },
+          {
+            "version": "1.5.8",
+            "download_url": "https://drive.google.com/uc?export=download&id=18Wsj1K180ZP6Q1tY5hy0QfRrZdtki6se",
+            "changelog_desc": "<p>- Fix: Error Scrape Shopee<br />- Fix: Format Export pada Tokopedia Mass Upload&nbsp;<br />- Fix: Scrape Lazada<br />- Update: Scrape Shopee &amp; Lazada tanpa menampilkan broser. Browser akan muncul hanya saat menemui captcha/verifikasi</p>"
+          },
+          {
+            "version": "1.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=1yyooyTyGiDlsfLwbkyXhsorj67a5p6Qt",
+            "changelog_desc": "<p>- FIX: Harga diskon hasil scrape tokopedia tidak sesuai<br />- FIX: Scrape shopee detail url product (error chromedriver)<br />- ADD: Grab disertai dengan video produk (scrape shopee upload ke tokopedia dengan direct upload)<br />- ADD: Export tokopedia variant multi category<br />- ADD: Upload tokopedia direct mass upload auto split dan support variant</p>"
+          },
+          {
+            "version": "1.6.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1iCp1-ZmFyoDovywiZyrbZNI7jTHbK3tx",
+            "changelog_desc": "<p>- FIX: Scrape lazada failed indexing url<br />- FIX: Checkbox pada export produk tidak tampilk<br />- FIX: Tidak dapat split export tokopedia mass upload, pada template variant 1 kategori<br />- FIX: Hasil export 2 kategori tidak tertata rapi, ada blank line di atas file<br />- FIX: Scrape shopee failed indexing url suppliyer</p>"
+          },
+          {
+            "version": "1.6.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=10kDTdPZOCfW_R36oWG7q5MGLbE1aLPil",
+            "changelog_desc": "<p>- FIX: Asuransi pengiriman pada export tokped wajib semua<br />- FIX: Direct mass upload shopee force close<br />- FIX: Scrape jakmall jadi harga diskon semua<br />- FIX: Perubahan pada login shopee scraper dan uploader</p>"
+          },
+          {
+            "version": "1.6.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=11PxNBBADfCbAPT9mBJiJdg5yMCgBlHY8",
+            "changelog_desc": "<p>- FIX: Perubahan halaman login shopee</p>"
+          },
+          {
+            "version": "1.6.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=12CbvzPOa_ohDva3pbnAXc4iRaOwuwju9",
+            "changelog_desc": "<p>- FIX: Scrape tokopedia hasil stok pada tidak sesuai<br />- FIX: Upload tokopedia failed deskripsii lebih dari 2000 huruf<br />- FIX: Scrape tokopedia hasil produk tidak sesuai</p>"
+          },
+          {
+            "version": "1.6.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=133jQYxjw81iiQM4ZRYZor14QKG__maqZ",
+            "changelog_desc": "<p>-&nbsp;FIX: Scrape shopee via supplier</p>"
+          },
+          {
+            "version": "1.6.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=13KXRVpZhAYgVORJjt_IuJLWl6XhIJx_c",
+            "changelog_desc": "<p>- FIX: Scrape shopee via kategori<br />- FIX: Direct mass upload shopee</p>"
+          },
+          {
+            "version": "1.6.7",
+            "download_url": "https://docs.google.com/uc?export=download&id=13ySrtM6ZnsrQkVqtHdYQAkKW3W_eoXfK",
+            "changelog_desc": "<p>-&nbsp;FIX: Hasil scrape shopee via kategori tidak sesuai</p>"
+          },
+          {
+            "version": "1.6.8",
+            "download_url": "https://docs.google.com/uc?export=download&id=14HntQ0MisfdiFe3mBN_w55YPP3wvRy9e",
+            "changelog_desc": "<p>-&nbsp;FIX: Failed scrape jakmall</p>"
+          },
+          {
+            "version": "1.6.9",
+            "download_url": "https://docs.google.com/uc?export=download&id=15DM9gP9Vnm63C0tjPguhBz5oNeSatO_S",
+            "changelog_desc": "<p>- FIX: Failed export shopee, update template shopee<br />- FIX: Direct mass upload shopee<br />- FIX: Scrape tokped finish di tengah jalan<br />- FIX: Scrape shopee via kategori tidak menemukan produk<br />- FIX: Update attribut dari shopee</p>"
+          },
+          {
+            "version": "1.7",
+            "download_url": "https://docs.google.com/uc?export=download&id=164ujOuCpF8FygcSzFt6GGxrWctZ5Oj8c",
+            "changelog_desc": "<p>- ADD: Penambahan filter pada scraper<br />- ADD: Mengingat opsi input pada scrape, upload, dan export<br />- IMPROVE: Optimasi scrape shopee<br />- FIX: Scraper tokopedia lebih dari 1 proses<br />- FIX: Hasil scrape tokopedia stok tidak sesuai<br />- FIX: Upload tokopedia direct upload failed deskripsi produk terlalu panjang<br />- FIX: Scraper shopee hasil tidak sesuai.<br />- FIX: Autologin shopee gagal capture verifikasi akun (baru login)</p>"
+          },
+          {
+            "version": "1.7.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=16IlhfwPjjttl35FeHI6_H4xrglzE63dl",
+            "changelog_desc": "<p>- FIX: Direct mass upload prduk tidak masuk ke etalase<br />- FIX: Scrape multi url bukalapak hanya mendapatkan produk url pertama<br />- FIX: Scrape shopee berhenti setalah indexing pada akun yang baru login<br />- FIX: Scrape tokopedia multi url produk duplicate<br />- FIX: Scrape shopee jumlah produk tidak sesuai<br />- IMPROVE: Scrape shopee skip halaman produk bermasalah dan penambahan delay scrape perproduk<br />- IMPROVE: Skip duplicate produk pada saat scrape detail (shopee dan tokopedia)</p>"
+          },
+          {
+            "version": "1.7.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1I3dSCu86zB-L11ZKRp1vFddZqreqW0wS",
+            "changelog_desc": "<div>\r\n<div>- FIX: Scrape shopee jumlah hasil scraper tidak sesuai</div>\r\n<div>- FIX: Scraper detail url shopee failed</div>\r\n<div>- FIX: Scraper multi url tokopedia not found di tengah proses</div>\r\n<div>- FIX: Scrape shopee muncul captha di tengah proses</div>\r\n<div>- FIX: Login Shopee mengalami gagal login dengan pesan gunakan metode lain</div>\r\n</div>"
+          },
+          {
+            "version": "1.7.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1PW8LvvbBtwfg2dl47gDsYVj_J0mON8LZ",
+            "changelog_desc": "<p>-&nbsp;FIX: Scraper Shopee failed indexing url<br />- FIX: Scraper shopee banyak yang failed</p>"
+          },
+          {
+            "version": "1.7.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=18RKIfc1JAVJk9mPGKeRbiFELbTCT6-Zr",
+            "changelog_desc": "<p>- FIX: Scrape skip produk PO di Shopee tidak dilewati<br />- FIX: Scraper shopee via kategori: failed indexing url<br />- FIX: Scraper shopee via supplier: tidak dapat menemukan data supplier<br />- FIX: Scraper shopee detail url: halaman bermasalah<br />- FIX: Scrape tokopedia deskripsi produk tidak sesuai: automatic numbering</p>"
+          },
+          {
+            "version": "1.7.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=19z2vMo4szukUf7ADQQmR9GxZVBJcFXoJ",
+            "changelog_desc": "<p>- FIX: Upload tokopedia hasil scraper dari jakmall produk jadi tidak aktif<br />- FIX: Scraper shopee banyak failed: Gagal mengambil data melalui browser<br />- FIX: Scraper shopee captha tidak muncul, jadi halaman bermasalah<br />- FIX: Scraper shopee: berhenti ditengah jalan</p>"
+          },
+          {
+            "version": "1.7.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=1AfqOwztBMH4u96KDcI7anen-w5s1_8w9",
+            "changelog_desc": "<p>-&nbsp;FIX: Scraper shopee jumlah tidak sesuai</p>"
+          },
+          {
+            "version": "1.7.7",
+            "download_url": "https://docs.google.com/uc?export=download&id=1Am7IEVdpRVTEcasfaAZWpYELBOSQOEu-",
+            "changelog_desc": "<p>-&nbsp;FIX: Scraper shopee tidak menemukan produk</p>"
+          },
+          {
+            "version": "1.7.8",
+            "download_url": "https://docs.google.com/uc?export=download&id=1AwwKSA1bWfRF9Scd94cOXBTFrtcOTucj",
+            "changelog_desc": "<p>-&nbsp;FIX: Scraper shopee tidak menemukan produk</p>"
+          },
+          {
+            "version": "1.7.9",
+            "download_url": "https://docs.google.com/uc?export=download&id=1BDUT-eqKbAwE1NiP6Q8MpWalqntsILWs",
+            "changelog_desc": "<p>-&nbsp;FIX: Scraper shopee browser di minimize memuat ulang<br />- FIX: Direct upload tokopedia variant failed stok lebih dari 100000<br />- FIX: Perubahan auto login shopee</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.7.9",
+          "download_url": "https://docs.google.com/uc?export=download&id=1BDUT-eqKbAwE1NiP6Q8MpWalqntsILWs",
+          "changelog_desc": "<p>-&nbsp;FIX: Scraper shopee browser di minimize memuat ulang<br />- FIX: Direct upload tokopedia variant failed stok lebih dari 100000<br />- FIX: Perubahan auto login shopee</p>"
+        }
+      },
+      {
+        "product_name": "Monitoring Toko",
+        "product_slug": "monitoring_toko",
+        "product_desc": "Perangkum & Pengelola Multi Akun Toko Marketplace",
+        "product_long_desc": "<p>Monitoring Toko adalah tool yang kami buat dengan tujuan utama untuk memudahkan anda dalam mengawasi banyak akun toko secara luas dan cepat.</p>\r\n<p>Dari rangkuman informasi penting yang di buat oleh Monitoring Toko, Anda dapat secara cepat membuat tindakan untuk Toko yang sedang memiliki aktifitas penting.</p>\r\n<p>Selain merekam informasi penting toko, Monitoring Toko juga dilengkapi dengan manajemen profile toko, sehingga anda bisa secara langsung berpindah dari Toko pertama ke toko Kedua secara mudah dan cepat.</p>\r\n<h4>Fitur</h4>\r\n<ul>\r\n<li>Berpindah Profile akun toko secara langsung&nbsp;</li>\r\n<li><strong>Bot</strong> yang akan selalu merekam informasi penting dari Toko</li>\r\n<li>Auto login. Sehingga anda tidak pelu melakukan login satu per-satu</li>\r\n<li>Data yang di rekam oleh Monitoring Toko\r\n<ul>\r\n<li><strong>Penjualan</strong> yang belum di proses</li>\r\n<li><strong>Chat</strong> yang belum dirbalas</li>\r\n<li><strong>Diskusi</strong> yang&nbsp;belum dirbalas</li>\r\n<li><strong>Saldo</strong>&nbsp;Akun Toko</li>\r\n<li><strong>Komplain</strong> dari Pembeli</li>\r\n</ul>\r\n</li>\r\n<li>Support Marketplace\r\n<ul>\r\n<li>Shopee</li>\r\n<li>Tokopedia</li>\r\n<li>Bukalapak</li>\r\n<li>Lazada</li>\r\n<li>Tiktok Shop</li>\r\n</ul>\r\n</li>\r\n<li>Manajemen Akun Toko</li>\r\n<li>Quick Filter profile berdasarkan\r\n<ul>\r\n<li>Toko yang memiliki saldo saja</li>\r\n<li>Toko yang memiliki penjualan yang belum di proses</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<h4>Paket</h4>\r\n<table class=\"table table-sm table-hover\">\r\n<thead>\r\n<tr>\r\n<th>Basic</th>\r\n<th>Advance</th>\r\n<th>Geek</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>Max. 50 Profile​</td>\r\n<td>Max.120 Profile​</td>\r\n<td>Unlimited Profile</td>\r\n</tr>\r\n<tr>\r\n<td>Free Update</td>\r\n<td>Free Update</td>\r\n<td>Free Update</td>\r\n</tr>\r\n<tr>\r\n<td>Lifetime Support​</td>\r\n<td>Lifetime Support​</td>\r\n<td>Lifetime Support​</td>\r\n</tr>\r\n<tr>\r\n<td>Join Komunitas Seller</td>\r\n<td>Join Komunitas Seller</td>\r\n<td>Join Komunitas Seller</td>\r\n</tr>\r\n</tbody>\r\n</table>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/monitoring_toko_thumb_1.png",
+          "https://appcenter.qlobot.com/uploads/monitoring_toko_thumb_1.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/monitoring_toko_icon.png",
+        "product_url": "https://qlobot.com/monitoring-toko/",
+        "product_help_url": "https://qlobot.com/help/topic/monitoring-toko/",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/monitoring_toko",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/28",
+        "version": [
+          {
+            "version": "0.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=15SV-LgdygqYTj9ZPij7EzL_57bqpJ6f3",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "0.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=16qZ1xgGHFsjfOmBYcCryDs8E_KOTZPjQ",
+            "changelog_desc": "<p>- ADD: Cek waktu terakhir diskusi yang belum di tangani<br />- ADD: Cek waktu terakhir chat yang belum di tangani<br />- ADD: Check order yang perlu ditangani dan deatline terdekat<br />- ADD: Check order baru dan deadline terdekat<br />- IMPROVE: UI total akun yang sudah login dan belum login<br />- ADD: Suara notif bisa diganti<br />- IMPROVE: UI waktu dan deatline dan sort waktu<br />- IMPROVE: UI mutli filter</p>"
+          },
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=17nlzbi9-qZbVeWnvqoLfvYJE5zEImYGy",
+            "changelog_desc": "<p>- FIXED: Autologin lazada<br />- IMPROVE: Sort Default by waktu, bukan by Jumlah<br />- FIXED: Data tokopedia jam deadline selisih 1 jam<br />- ADD: Import from finarack<br />- CHANGE: Icon Monitoring Toko</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=17xoS1D6yL-pDZIDj_ijyzGuZf1qXU_fP",
+            "changelog_desc": "<p>- FIX: Refresh profile pendding tokopedia</p>"
+          },
+          {
+            "version": "1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1A3Fztc5zI5-7kXNnWgzhU4eL59oLExJ6",
+            "changelog_desc": "<p>-&nbsp;FIX: Diskusi read error tokopedia<br />- IMPROVE: Jam batas penanganan Tokopedia<br />- IMPROVE: UI hanya satu filter yang aktif<br />- ADD: Auto OTP Tokopedia<br />- ADD: Auto Verifikasi Email Shopee</p>"
+          },
+          {
+            "version": "1.1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1BMp_xG5vHLiVwPC4ITuz5tp1CQwmiLhe",
+            "changelog_desc": "<p>- FIX: tanggal deatline transaksi siap kirim tidak sesuai tokopedia (transaksi po)<br />- FIX: auto login lazada triger error</p>"
+          },
+          {
+            "version": "1.1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1GAHAtWbvQGpebbRIrQKUyJZ-3-VLJidf",
+            "changelog_desc": "<p>- FIX: Triger error autologin tokopedia<br />- FIX: Read error pesanan tokopedia</p>"
+          },
+          {
+            "version": "1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1JntejfgVQOTxAeXaXejwW-5FZQljlkkU",
+            "changelog_desc": "<p>- FIX: Bot tiba tiba berhenti<br />- ADD: Online seller Tokopedia<br />- ADD: Check order batal Shopee dan Tokopedia (Pesanan Bermasalah)<br />- ADD: Check refund produk Shopee (Pesanan Bermasalah)<br />- ADD: Check komplain Tokopedia (Pesanan Bermasalah)<br />- FIX: Expired token lazada<br />- FIX: Read Error chat Lazada<br />- FIX: Autologin toped error<br />- FIX: Pesan error open browser tidak sesuai</p>"
+          },
+          {
+            "version": "1.2.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1oo3jMzHYKi9m9UcsvDhQlXPJ_MPurU6x",
+            "changelog_desc": "<p>-&nbsp;FIXED: Login Tokopedia \"Permintaanmu gagal diproses\" di beberapa device</p>"
+          },
+          {
+            "version": "1.2.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1sUQrW3WQq3wscgmEAF8IhW2aefBKjXgk",
+            "changelog_desc": "<p>-&nbsp;FIX: auto login shopee failed<br />- IMPROVE: Autologin Tokopedia pause permintaan gagal diproses<br />- FIX: Profil akun toko mengalami duplicate</p>"
+          },
+          {
+            "version": "1.2.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1t_Jy0p427wceGuSi46Vd1vC7IcjyGgyI",
+            "changelog_desc": "<p>-&nbsp;FIX: Login monitoring toko ada spasi setelah email, profilnya tidak tersimpan<br />- FIX: Login monitoring toko tokopedia dengan nomer hp, profilnya tidak tersimpan</p>"
+          },
+          {
+            "version": "1.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=12WxhlCeDv6NXS9bcqKiCkUTcouQ4zfBy",
+            "changelog_desc": "<p>-&nbsp;ADD: Support marketplace tiktokshop</p>"
+          },
+          {
+            "version": "1.3.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=14TFnRuHI12eCBshfXM6YA1kkDAH56il5",
+            "changelog_desc": "<p>-&nbsp;FIX: Notif pesanan shopee check error</p>"
+          },
+          {
+            "version": "1.3.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=166glT2blzcVLbpf-ObNzuHuQ_HcDi9lN",
+            "changelog_desc": "<p>- FIX: Total saldo setelah ada saldo di tiktok tidak sesuai<br />- FIX: Autologin tokopedia sukses, tapi akun tetep tidak dalam posisi login<br />- FIX: Autologin shopee gagal capture verifikasi akun (baru login)</p>"
+          },
+          {
+            "version": "1.3.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1uXmUrI4q6RMIimygUsA2vloM1rHaLOfT",
+            "changelog_desc": "<div>\r\n<div>- FIX: Profil toko tokopedia terjadi duplicate</div>\r\n<div>- FIX: Akun shopee ke log out dan di login ulang minta verif email</div>\r\n<div>- FIX: Login Shopee mengalami gagal login dengan pesan gunakan metode lain</div>\r\n</div>"
+          },
+          {
+            "version": "1.3.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=19h1OfINO2f1zl0uW2pqTBEroC6o4zPlU",
+            "changelog_desc": "<p>-&nbsp;FIX: Buka produk shopee via monitoring toko. halaman bermasalah<br />- FIX: Auto login shopee gagal capture akun : Facebook</p>"
+          },
+          {
+            "version": "1.3.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=1AqkGQwPN-iLdNCeAIazZ9iiBuRuMDIVt",
+            "changelog_desc": "<p>-&nbsp;FIX: Proses pada auto login shopee berhenti dan auto verif mengulang<br />- FIX: Autologin tokopedia otp login dengan whatsapp tidak berhenti</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.3.5",
+          "download_url": "https://docs.google.com/uc?export=download&id=1AqkGQwPN-iLdNCeAIazZ9iiBuRuMDIVt",
+          "changelog_desc": "<p>-&nbsp;FIX: Proses pada auto login shopee berhenti dan auto verif mengulang<br />- FIX: Autologin tokopedia otp login dengan whatsapp tidak berhenti</p>"
+        }
+      },
+      {
+        "product_name": "Uploader Tiktok Shop",
+        "product_slug": "uploader_tiktok_shop",
+        "product_desc": "Uploader Product Marketplace Tiktok Shop",
+        "product_long_desc": "<p>Uploader TikTok Shop adalah sebuah tool yang dirancang dengan fungsi utama untuk memudahkan dan mempercepat proses pengunggahan banyak produk ke TikTok Shop Indonesia. Dengan menggunakan tool ini, pengguna dapat dengan mudah dan cepat mengunggah berbagai produk ke TikTok Shop Indonesia.</p>\r\n<p>Tool Uploader TikTok Shop dari Qlobot telah dilengkapi dengan beberapa fitur unggulan:</p>\r\n<ul>\r\n<li>Menambahkan kata-kata pada awal dan akhir di judul asli. Memudahkan pengguna saat mengunggah sekumpulan produk.</li>\r\n<li>Auto Set Mapping Category (Jika sudah pernah mengatur kategori maka selanjutnya tidak perlu mengatur ulang)</li>\r\n<li>Support Varian &amp; SKU</li>\r\n<li>Auto login terintegrasi dengan tool Monitoring Toko</li>\r\n<li>Anda dapat mengunggah produk secara cepat dan mudah dengan menggunakan fitur Direct Mass Upload pada tool uploader kami. <br />Direct Mass Upload adalah teknologi upload yang kami kembangkan khusus untuk memanfaatkan mass upload agar dapat langsung mengunggah sekumpulan produk secara efisien. Dengan fitur ini, pengguna dapat menghemat waktu dan tenaga dalam mengelola produk mereka di platform tiktok show.</li>\r\n</ul>\r\n<p>Tambahan yang akan kamu dapatkan:</p>\r\n<ul>\r\n<li>Layanan After sales dari Tim Support kami yang akan dengan senang hati membantu saat terjadi kendala saat penggunaan</li>\r\n<li>Free Updates. kamu bisa menikmati update secara gratis selama masa langganan berjalan</li>\r\n<li>Money Back Guarantee. Kamu bisa klaim refund jika kamu merasa tool ini tidak bermanfaat (maksimal 7 hari dr lisensi di aktifkan)</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/uploader_tiktok_shop_thumb_0.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/uploader_tiktok_shop_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/uploader_tiktok_shop",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/29",
+        "version": [
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=17KoYHchSoVM-5SnCc90E2GDvab0vYDjy",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=17rsbs62XGbxlae0fd7gmzES-urckUHPt",
+            "changelog_desc": "<p>-&nbsp;FIX: ada perubahan attribut yang wajib di tiktok seller<br />- IMPROVE: Fitur Cod bisa di matikan waktu upload</p>"
+          },
+          {
+            "version": "1.0.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1AE5teuS35cwI0T6UXscGIl5J_ZIbGdz1",
+            "changelog_desc": "<p>-&nbsp;FIX: Direct mass upload tiktok shopee harga nya tidak sesuai<br />- FIX: Matikan cod tetep aktif</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.0.2",
+          "download_url": "https://docs.google.com/uc?export=download&id=1AE5teuS35cwI0T6UXscGIl5J_ZIbGdz1",
+          "changelog_desc": "<p>-&nbsp;FIX: Direct mass upload tiktok shopee harga nya tidak sesuai<br />- FIX: Matikan cod tetep aktif</p>"
+        }
+      },
+      {
+        "product_name": "Uploader Lazada",
+        "product_slug": "uploader_lazada",
+        "product_desc": "Uploader Banyak Produk ke Lazada Lebih Mudah & Cepat",
+        "product_long_desc": "<p>Uploader Lazada adalah tool yang memiliki fungsi utama untuk melakukan upload banyak produk ke Lazada Indonesia secara mudah &amp; cepat.</p>\r\n<p>Tool Uploader Lazada dari Qlobot sudah dilengkapi dengan beberapa fitur unggulan:</p>\r\n<ul>\r\n<li>Optimasi Score 100</li>\r\n<li>Pengaturan Attribute&nbsp;Otomatis. Untuk memudahkan pengaturan attribute kategori, terutama saat akan melakukan upload ke beberapa kategori secara langsung.</li>\r\n<li>Auto Create Loriket (Deskripsi produk yang disertai dengan gambar)</li>\r\n<li>Random judul, random markup, dll. Yang akan memudahkan saat sekumpulan produk di upload ke beberapa akun.</li>\r\n<li>Support Varian &amp;&nbsp;SKU</li>\r\n<li>Integraasi watermark</li>\r\n<li>Auto Set Mapping Category</li>\r\n<li>Metode Upload:\r\n<ul>\r\n<li>Direct Upload (Upload satu persatu secara otomatis)</li>\r\n<li>Upload menggunakan Mass Upload Lazada</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<p>Teknologi <strong>Direct Upload</strong>&nbsp;akan membantu untuk memudahkan upload ke puluhan akun secara langsung &amp; untuk memaksimalkan optimasi pemprioritasan produk pada algoritma Lazada.</p>\r\n<p>Direct upload yang kami kembangkan akan sangat hemat dalam konsumsi Daya/RAM pada komputer. Sehingga walaupun menjalankan upload ke banyak akun sekaligus komputer tetap bisa digunakan untuk melakukan aktivitas lainnya.</p>\r\n<p>Seberapa besar&nbsp;kemampuan upload produk secara paralel (berjalan bersamaan) ke akun-akun yang berbeda tergantung dengan spek Komputer yang digunakan. Semakin besar spek yang digunakan maka semakin besar pula (Qlobot tidak membatasi).</p>\r\n<p>Tambahan yang akan kamu dapatkan:</p>\r\n<ul>\r\n<li><strong>Layanan After sales dari&nbsp;Tim Support</strong> kami yang akan dengan senang hati membantu saat terjadi kendala saat penggunaan</li>\r\n<li><strong>Free Updates</strong>. kamu bisa menikmati update secara gratis selama masa langganan berjalan</li>\r\n<li><strong>Money Back Guarantee</strong>. Kamu bisa klaim refund jika kamu merasa tool ini tidak bermanfaat (maksimal 7 hari dr lisensi di aktifkan)</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/uploader_lazada_thumb_0.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/uploader_lazada_icon.png",
+        "product_url": "https://qlobot.com/uploader-lazada?utm_source=appcenter&utm_medium=product-detail&utm_campaign=uploader-lazada",
+        "product_help_url": "https://help.qlobot.com/topic/uploader-lazada?utm_source=appcenter&utm_medium=product-detail&utm_campaign=uploader-lazada",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/uploader_lazada",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/27",
+        "version": [
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=14KRl-rk_WFdoy8cacBBRwGa7Xh2-oJK-",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=17VeXHBvX6m-upW_DCL-zQY2f7RTK5Slp",
+            "changelog_desc": "<p>-&nbsp;FIX: Upload failed: [RESPONSE] C006:Brand diperlukan tapi hilang<br />- FIX: auto login lazada (pembaruan dari lazada)</p>"
+          },
+          {
+            "version": "1.0.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1BMPr69biotjJWrHK2xvha5ktfE-tZf4p",
+            "changelog_desc": "<p>-&nbsp;FIX: login lazada trigger error</p>"
+          },
+          {
+            "version": "1.0.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1kocgXRtnxDBSm6WQuqGHKHyllKBa_YtU",
+            "changelog_desc": "<div>\r\n<div>- FIX: Export mass upload lazada hanya loading</div>\r\n<div>- FIX: Mass upload lazada (wajib-Jenis Garansi tidak terjawab)</div>\r\n<div>- FIX: Direct upload lazada kategori kosong</div>\r\n<div>- FIX: Hasil export mass upload lazada terproteksi</div>\r\n<div>- FIX: Upload lazada sukses tetapi produk masuk pelanggaran</div>\r\n<div>- FIX: Export mass upload lazada harga tidak muncul</div>\r\n</div>"
+          },
+          {
+            "version": "1.0.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=1q4D4PmWNp5rkBWRdpHTEcYIR5Wdz46RU",
+            "changelog_desc": "<p>-&nbsp;FIXED: Failed upload lazada di beberapa produk (external image url not allowed)</p>"
+          },
+          {
+            "version": "1.0.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=1z51WuLmKs74ER8EFXAFs9s_Uy3_PSydE",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan template mass upload</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.0.5",
+          "download_url": "https://docs.google.com/uc?export=download&id=1z51WuLmKs74ER8EFXAFs9s_Uy3_PSydE",
+          "changelog_desc": "<p>-&nbsp;FIX: Perubahan template mass upload</p>"
+        }
+      },
+      {
+        "product_name": "Watermark Image",
+        "product_slug": "watermark_image",
+        "product_desc": "Auto Watermark Image & Integrasi Uploader Qlobot v1",
+        "product_long_desc": "<p><strong>Auto Watermark Image</strong></p>\r\n<p>Melakukan watermark ratusan gambar akan semakin mundah. selain melakukan watermark untuk gambar, Tool ini juga sudah lansung bisa terintegrasi dengan <a title=\"Penajari tentang Qlobot V1\" href=\"https://qlobot.com/qlobot-v1\" target=\"_blank\" rel=\"noopener\">Qlobot V1</a></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Cara Penggunaan</strong></p>\r\n<p><iframe style=\"max-width: 100%;\" src=\"https://www.youtube.com/embed/nmgofiTEqes\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fitur&nbsp;</strong></p>\r\n<ul>\r\n<li>Auto Watermark Multiple Image</li>\r\n<li>Setting Frame/Border</li>\r\n<li>Crop/Resize sesuai dengan ukuran yang diharapkan</li>\r\n<li>Integrasi denan Qlobot v1</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/watermark_thumb_0.jpeg",
+          "https://appcenter.qlobot.com/uploads/watermark_image_thumb_1.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/watermark_image_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/watermark_image",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/7",
+        "version": [
+          {
+            "version": "0.2.0",
+            "download_url": "https://dl.dropboxusercontent.com/s/chml44cxpww2pgz/watermark-0.2.0.qlobot-tool",
+            "changelog_desc": "<p>Test update dari server</p>"
+          },
+          {
+            "version": "0.2.1",
+            "download_url": "https://dl.dropboxusercontent.com/s/7tdsw74tkpvxyth/watermark_image-0.2.1.qlobot-tool?dl=0",
+            "changelog_desc": "<p>- watermark image satu folder<br />- resize watermark<br />- fit resize image<br />- border<br />- integerasi dengan qlobot v1</p>"
+          },
+          {
+            "version": "0.2.2",
+            "download_url": "https://dl.dropboxusercontent.com/s/7i0alrjfhu2kyxm/watermark_image-0.2.2.qlobot-tool?dl=0",
+            "changelog_desc": "<p>update system</p>"
+          },
+          {
+            "version": "0.2.3",
+            "download_url": "https://dl.dropboxusercontent.com/s/zuq8siuo9637wdg/watermark_image-0.2.3.qlobot-tool?dl=0",
+            "changelog_desc": "<p>update tampilan folder input dan output</p>"
+          },
+          {
+            "version": "0.2.4",
+            "download_url": "https://dl.dropboxusercontent.com/s/4ic885h1lmrqn9n/watermark_image-0.2.4.qlobot-tool?dl=0",
+            "changelog_desc": "<p>fix error&nbsp;import cv2</p>"
+          },
+          {
+            "version": "1.0.0",
+            "download_url": "https://dl.dropboxusercontent.com/s/n7jzotuylyomsoj/watermark_image-1.0.0.qlobot-tool",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://dl.dropboxusercontent.com/s/nl1lxgpu0i4spil/watermark_image-1.0.1.qlobot-tool?dl=0",
+            "changelog_desc": "<p>- default fit resize<br />- fix error</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.0.1",
+          "download_url": "https://dl.dropboxusercontent.com/s/nl1lxgpu0i4spil/watermark_image-1.0.1.qlobot-tool?dl=0",
+          "changelog_desc": "<p>- default fit resize<br />- fix error</p>"
+        }
+      },
+      {
+        "product_name": "Supplier Search",
+        "product_slug": "supplier_search",
+        "product_desc": "Alat Pencari & Peng-analisa Supplier di Marketplace",
+        "product_long_desc": "<p><!-- wp:paragraph --></p>\r\n<p>Supplier Search adalah tool yang berfungsi untuk memudahkan kita mencari toko-toko yang memiliki potensi di dalam pada Marketplace.</p>\r\n<p><!-- /wp:paragraph --> <!-- wp:paragraph --></p>\r\n<p>Marketplace yang didukung oleh Tool Supplier Search adalah</p>\r\n<p><!-- /wp:paragraph --> <!-- wp:list --></p>\r\n<ul>\r\n<li>Shopee</li>\r\n<li>Tokopedia</li>\r\n<li>Bukalapak</li>\r\n</ul>\r\n<p><!-- /wp:list --> <!-- wp:paragraph --></p>\r\n<p>Pencarian supplier dapat dilakukan dengan menggunakan</p>\r\n<p><!-- /wp:paragraph --> <!-- wp:list --></p>\r\n<ul>\r\n<li><strong>Keyword Produk</strong><br />Hanya dengan memasukkan Keyword Produk, tool ini akan mencarikan toko-toko yang menjual produk dengan keyword tersebut.</li>\r\n<li><strong>URL Daftar Produk</strong><br />Seperti URL halaman kategori, URL search (pencarian), dan URL dari halaman yang berisi beberapa produk di dalamnya.</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/supplier_search_thumb_0.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/supplier-search_icon.png",
+        "product_url": "",
+        "product_help_url": "https://help.qlobot.com/topic/supplier-search/",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/supplier_search",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/18",
+        "version": [
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=1Kt5nWDwxMOQrGArJda9R8eTWM9ugd7Np",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=16nbmVC2kOepy2rbmdsKbj3O9amMKtFkj",
+            "changelog_desc": "<p>-&nbsp;FIX: Indikator proses berjalan tidak berfungsi<br />- FIX: Grab limit (berhenti sebelum mencapai limit)<br />- FIX: Grab ke dua hasilnya sama (grab url category)</p>"
+          },
+          {
+            "version": "1.0.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1J7rVKYq34nBE6RfjPCBNljxW1oJG-9e0",
+            "changelog_desc": "<p>- FIX: Suppliyer search hasil tidak sesuai (Filter jenis toko Shopee)<br />- FIX: suppliyer search Tokopedia hasil tidak sesuai (filter jenis kota dan jenis toko)<br />- FIX: Popular search: Can't fetch data<br />- IMPROVE: UI Paste url marketplace otomatis menyesuaikan</p>"
+          },
+          {
+            "version": "1.0.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1pvJM6AdGo2Oi5RizCiYcy1ln5Y3qGt7s",
+            "changelog_desc": "<p>-&nbsp;FIXED: Parallel supliyer search tiba tiba berhenti<br />- FIXED: Supplier Search Shopee Failed</p>"
+          },
+          {
+            "version": "1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1sJj3bbR2L58O-b580Sav0MH9PgUnQ1wX",
+            "changelog_desc": "<p>-&nbsp;FIX: Supliyer search Shopee tidak jalan<br />- ADD: Split prosess multi Keyword/Urls<br />- ADD: Multi Keyword/Url Supplier search</p>"
+          },
+          {
+            "version": "1.1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1uLBOC7Jf5qDBYw4lSttKV4I4dnzLN3Hv",
+            "changelog_desc": "<p>-&nbsp;FIX: Scrape suppliyer shopee indexing failed</p>"
+          },
+          {
+            "version": "1.1.2",
+            "download_url": "https://drive.google.com/uc?export=download&id=18X3xUG2TVSvAsD_TLd1m8-nzrN0eholZ",
+            "changelog_desc": "<p>- Fix: Error Supplier Search Shopee</p>"
+          },
+          {
+            "version": "1.1.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1y-kzb60bXGbHjI0wX_kxKHDMpKaAalcG",
+            "changelog_desc": "<p>-&nbsp;FIX: Supplier search shopee error chrome driver</p>"
+          },
+          {
+            "version": "1.1.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=11sDBh0bI4J62rkFcyYeZGcvF7AMh-XyY",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada halaman login shopee</p>"
+          },
+          {
+            "version": "1.1.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=13h5uBwfvyXkCXZNqSQjZ1bVmsAEPx6At",
+            "changelog_desc": "<p>-&nbsp;FIX : Supplier searh shopee failed</p>"
+          },
+          {
+            "version": "1.1.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=15CR7obHwOp26wsQaB4y2QsBfYydtKBz0",
+            "changelog_desc": "<p>-&nbsp;FIX: Supplier search tokopedia failed</p>"
+          },
+          {
+            "version": "1.1.7",
+            "download_url": "https://docs.google.com/uc?export=download&id=15xnITrsy_8dtZYIPrTGSzOQZ4E3X1zjB",
+            "changelog_desc": "<p>-&nbsp;FIX: Supplier search tokopedia emprty</p>"
+          },
+          {
+            "version": "1.1.8",
+            "download_url": "https://docs.google.com/uc?export=download&id=17ZOfvQxXKdN-vILGOB7yloqgdWxo1uT_",
+            "changelog_desc": "<p>- FIX: Autologin shopee gagal capture verifikasi akun (baru login)<br />- FIX: Supplier search shopee berhenti di tengah jalan</p>"
+          },
+          {
+            "version": "1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1F_OCikzkDoA0CP1ur8RSq2muuPBuY2yU",
+            "changelog_desc": "<p>-&nbsp;FIX: Dupplier search multi url di shopee<br />- FIX: Login Shopee mengalami gagal login dengan pesan gunakan metode lain<br />- IMPROVE: Nama file export tanpa url<br />- ADD: Penambahan sortcut untuk scrape product</p>"
+          },
+          {
+            "version": "1.2.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=18fDjRYYOZFvJkpG2gB-oweyij_G3eTkZ",
+            "changelog_desc": "<p>-&nbsp;FIX: Supplier serach dari shopee: failed</p>"
+          },
+          {
+            "version": "1.2.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1AlrGow9drfX51VjHPx1nd8XDx7ZVSgIY",
+            "changelog_desc": "<p>-&nbsp;FIX: Supplier serach shopee multi url found 0<br />- FIX: Supplier search duplicate</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.2.2",
+          "download_url": "https://docs.google.com/uc?export=download&id=1AlrGow9drfX51VjHPx1nd8XDx7ZVSgIY",
+          "changelog_desc": "<p>-&nbsp;FIX: Supplier serach shopee multi url found 0<br />- FIX: Supplier search duplicate</p>"
+        }
+      },
+      {
+        "product_name": "Promote Product Shopee",
+        "product_slug": "promote_product_shopee",
+        "product_desc": "Auto Promote Produk untuk Shopee Otomatis per 4 Jam",
+        "product_long_desc": "<p>Promote Product Shopee adalah tool yang berfungsi untuk menjalankan fitur <strong>Promote Product</strong> yang ada di Shopee.</p>\r\n<p>Pada saat Anda melakukan promote produk dengan menggunakan fitur yang ada di shopee, maka anda harus secara manual melakukan klik satu per satu ke produk yang anda miliki.&nbsp;</p>\r\n<p>Namun dengan adanya tool ini, anda dapat melakukan proses tersebut dengan otomatis. Dan&nbsp;Promote Product Shopee akan secara otomatis pula mengulangi proses promote setelah 4 jam. Sehingga produk-produk yang ada di toko anda dapat selalu menggunakan fitur Promote Product dari Shopee.</p>\r\n<h3>Fitur:&nbsp;</h3>\r\n<ul>\r\n<li>Auto Promote Produk. 4 Produk per 4 Jam (sesuai ketentuan dari Shopee)</li>\r\n<li>Multi Akun Toko dalam Sekali perintah</li>\r\n<li>Otomatis mengulangi Proses Promote Product setelah 4 jam</li>\r\n<li>Product yang di promote diurutkan secara Acak/Random</li>\r\n</ul>\r\n<h3>FAQ</h3>\r\n<h5>Apa perbedaan dengan Auto Promote Product Shopee yang ada di Qlobot v1?</h5>\r\n<p>Pada Auto Promote Product Shopee yang ada pada Qlobot v1 tidak memiliki proses pengulangan per 4 jam. namun pada tool ini Proses pengulangan Auto Promote Product sudah bisa berjalan otomatis per 4 jam.</p>\r\n<h5>Kenapa untuk promote product harus menunggu 4 jam?</h5>\r\n<p>Ketentuan tersebut sudah menjadi kebijakan dari pihak Shopee. Tool dalam bentuk apapun tidak dapat melewati batasan yang telah ditentukan tersebut.</p>\r\n<p>&nbsp;</p>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/promote_product_shopee_thumb_0.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/promote-product-shopee_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/promote_product_shopee",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/20",
+        "version": [
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=19xj2vCD5Abb_VUlKAJOkg_-yGb5mANTB",
+            "changelog_desc": "<p>- Init Rilis</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1LEKEjUnWd4aapa5TS6GHvYSWuNXOJTUj",
+            "changelog_desc": "<p>- fixing hanya terpromote kurang dari slot yang ada</p>"
+          },
+          {
+            "version": "1.0.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1LVaUjfiuRCu_79DmRimbRBtNLEohW7XP",
+            "changelog_desc": "<p>- improve log</p>"
+          },
+          {
+            "version": "1.0.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=10-cDN19OCQHKZOndJLfwfDex9xT-8jmo",
+            "changelog_desc": "<p>- FIX: auto promote force close ditengah jalan<br />- FIX: Log error pada saat limit promote produk berantakan<br />- FIX: Autologin Shopee gagal menangkap pesan error</p>"
+          },
+          {
+            "version": "1.0.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=133DYm8V2Q0LrWQGl6N1tcGkZ38SHMCci",
+            "changelog_desc": "<p>-&nbsp;FIX: verifikasi email shopee</p>"
+          },
+          {
+            "version": "1.0.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=14QawWDUIqai0qOKp0myWx_g62_H3d9aj",
+            "changelog_desc": "<p>Mark as Free Tool</p>"
+          },
+          {
+            "version": "1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1ABZcrAi3QEM14F3_WbX0eTL_ovKB9U9X",
+            "changelog_desc": "<p>- ADD: Skip OTP<br />- ADD: Auto Verif Email Shopee</p>"
+          },
+          {
+            "version": "1.1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1AysXdr3EhSNZHvh1QSKzieb8EQ4a0Du5",
+            "changelog_desc": "<p>- FIX: promote force close</p>"
+          },
+          {
+            "version": "1.1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1pu9d-EQCLIYqAdlq4hGmAxANSmkBxTq9",
+            "changelog_desc": "<p>-&nbsp;FIXED: Failed Force close di beberapa akun</p>"
+          },
+          {
+            "version": "1.1.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1su_Qd6xrv7jUBjQ0TupUC3FlhDTSry3n",
+            "changelog_desc": "<p>-&nbsp;FIX: Proses autoverif shopee tidak berjalan<br />- FIX: Gagal login Shopee</p>"
+          },
+          {
+            "version": "1.1.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=1-s1XyRg-y9k6C-31s_MrvUeY_vwagHT6",
+            "changelog_desc": "<p>-&nbsp;FIX: Gagal melakukan auto promote (skip ketika failed)</p>"
+          },
+          {
+            "version": "1.1.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=10qq-CR3blctUI0BtNLNgtslM8Xet7_xY",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada login shopee</p>"
+          },
+          {
+            "version": "1.1.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=11zRzRWzrq9GCMKkf2AnbN2u_vsB2k8ty",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada halaman login shopee</p>"
+          },
+          {
+            "version": "1.1.7",
+            "download_url": "https://docs.google.com/uc?export=download&id=10WEouHFNv5ubNPvZxAZBFMd-yIFY4uJe",
+            "changelog_desc": "<p>- FIX: Gagal mengambil slot naikan produk<br />- FIX: Perubahan pada login shopee</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.1.7",
+          "download_url": "https://docs.google.com/uc?export=download&id=10WEouHFNv5ubNPvZxAZBFMd-yIFY4uJe",
+          "changelog_desc": "<p>- FIX: Gagal mengambil slot naikan produk<br />- FIX: Perubahan pada login shopee</p>"
+        },
+        "free": true
+      },
+      {
+        "product_name": "Broadcast Chat Shopee",
+        "product_slug": "broadcast_chat_shopee",
+        "product_desc": "Mudahkan Aktifitas Kirim Promo & Follow Up",
+        "product_long_desc": "<ul>\r\n<li>mengirim semua pesan ke semua user yang pernah melakukan chat dengan toko tersebut</li>\r\n<li>mengirim semua pesan ke semua akun yang follow akun kita</li>\r\n<li>mengirim semua pesan ke pembeli yang melakukan order tapi belum melakukan pembayaran</li>\r\n<li>membatasi jumlah akun yang di chat</li>\r\n<li>Reusable cookies (Untuk meminimalisir OTP)</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/broadcast_chat_shopee_thumb_0.jpeg"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/broadcast_chat_shopee_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/broadcast_chat_shopee",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/5",
+        "version": [
+          {
+            "version": "1.0.0",
+            "download_url": "https://dl.dropboxusercontent.com/s/qifxnjfy5yjrclu/broadcast_chat_shopee.qlobot-tool",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://dl.dropboxusercontent.com/s/53jwbxmtvs2z438/broadcast_chat_shopee-1.0.1.qlobot-tool?dl=0",
+            "changelog_desc": "<p>fix message error</p>"
+          },
+          {
+            "version": "1.0.2",
+            "download_url": "https://dl.dropboxusercontent.com/s/b7ics93z70mlfrq/broadcast_chat_shopee-1.0.2.qlobot-tool?dl=0",
+            "changelog_desc": "<p>fix all message &amp; belum bayar</p>"
+          },
+          {
+            "version": "1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1BSOLyNj2Ug7BKzoAIWTlykHARQXZd0zQ",
+            "changelog_desc": "<p>- Perbaikan broadcast chat all<br />- Broadcast chat unpaid from order<br />- Reusable login data<br />- Add support new line</p>"
+          },
+          {
+            "version": "1.1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=12fjBS4_5BgnAduQYt1xtqOJzARi3hILH",
+            "changelog_desc": "<p>-&nbsp;FIX: Failed user tidak bisa di chat<br />- FIX: Verifikasi email shopee</p>"
+          },
+          {
+            "version": "1.1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1uDnlW_RjzvD00Jugnmxgployr4x6UsQW",
+            "changelog_desc": "<p>-&nbsp;FIX: Gagal login shopee</p>"
+          },
+          {
+            "version": "1.1.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=12Pn_0TDYrDfswLdzA5h9OhZ9zO7QkZS8",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada login shopee</p>"
+          },
+          {
+            "version": "1.1.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=17QzSzcldaBc-BpbuGYeypR3GzQCh1CF4",
+            "changelog_desc": "<p>-&nbsp;FIX: Autologin shopee gagal capture verifikasi akun (baru login)</p>"
+          },
+          {
+            "version": "1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=17jLn_2shkSxYRSTYJ4uZHqBTF3ADkseV",
+            "changelog_desc": "<p>-&nbsp;FIX: Waktu broadcast belum selesai indexing tapi sudah mulai chat<br />- FIX: Broadcast shopee berhenting di tengah jalan<br />- ADD: Penambahan mulai chat dari interaksi sebelum tanggal</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.2",
+          "download_url": "https://docs.google.com/uc?export=download&id=17jLn_2shkSxYRSTYJ4uZHqBTF3ADkseV",
+          "changelog_desc": "<p>-&nbsp;FIX: Waktu broadcast belum selesai indexing tapi sudah mulai chat<br />- FIX: Broadcast shopee berhenting di tengah jalan<br />- ADD: Penambahan mulai chat dari interaksi sebelum tanggal</p>"
+        }
+      },
+      {
+        "product_name": "Mass Update Stock Shopee",
+        "product_slug": "mass_update_stock_shopee",
+        "product_desc": "Update Stok Produk Secara Masal untuk Multi Akun",
+        "product_long_desc": "<p>Mass Update Stock adalah tool yang berfungsi untuk menjaga stok produk yang ada di toko Anda tetap terjaga.</p>\r\n<h3>Fitur</h3>\r\n<ul>\r\n<li>Update Stock Masal secara otomatis</li>\r\n<li>Support untuk banyak akun toko dalam sekali perintah</li>\r\n<li>Random Stock. Anda dapat membuat stock didalam toko anda terlihat lebih natural</li>\r\n<li>Filter produk\r\n<ul>\r\n<li>Berdasarkan stock yang hampir habis.&nbsp;</li>\r\n</ul>\r\n</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/mass_update_stock_shopee_thumb_0.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/mass-update-stock_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/mass_update_stock_shopee",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/19",
+        "version": [
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=19ibaoZL5q1mqaLNIhAhk84IJ1PbraPQ9",
+            "changelog_desc": "<p>- Init Rilis</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=14gDgyi85gHU1E6FaVV6vGvsgn5Vvfbtl",
+            "changelog_desc": "<p>Mark as Free Tool</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.0.1",
+          "download_url": "https://docs.google.com/uc?export=download&id=14gDgyi85gHU1E6FaVV6vGvsgn5Vvfbtl",
+          "changelog_desc": "<p>Mark as Free Tool</p>"
+        },
+        "free": true
+      },
+      {
+        "product_name": "Delete Product Shopee",
+        "product_slug": "delete_product_shopee",
+        "product_desc": "Maksimalkan Potensi Produk di Toko Lebih Mudah",
+        "product_long_desc": "<ul>\r\n<li>Delete Produk semua (semua , live , habis, diblokir, diarsipkan)</li>\r\n<li>Delete semua produk yang belum terjual</li>\r\n<li>Delete produk hanya yang berstatus: habis</li>\r\n<li>Delete produk hanya yang berstatus: diarsipkan</li>\r\n<li>Delete produk hanya yang berstatus: diblokir</li>\r\n<li>Delete produk dengan filter tanggal upload produk</li>\r\n<li>Delete produk dengan filter search nama produk</li>\r\n<li>Delete produk dengan batas jumlah produk</li>\r\n<li>Reusable cookies (Untuk meminimalisir OTP)</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/delete_product_shopee_thumb_1.jpeg",
+          "https://appcenter.qlobot.com/uploads/delete_product_shopee_thumb_1.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/delete_product_shopee_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/delete_product_shopee",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/1",
+        "version": [
+          {
+            "version": "1.0.0",
+            "download_url": "https://dl.dropboxusercontent.com/s/5otqivywta1dvad/delete_product_shopee.qlobot-tool",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://dl.dropboxusercontent.com/s/ldcb7r8ss11i8y0/delete_product_shopee-1.0.1.qlobot-tool?dl=0",
+            "changelog_desc": "<p>- Pembenahan agar bisa lanjut ke selanjutnya<br />- Pembenahan untuk perbaruan UI<br />- Pembenahan untuk penambahan delay<br />- Pembenahan pada kendala something wrong<br />- Penambahan keterangan \"skip terjual jika lewati produk\"<br />- Penambahan keterangan \"berapa lama produk di toko\"</p>"
+          },
+          {
+            "version": "1.0.2",
+            "download_url": "https://dl.dropboxusercontent.com/s/y899iorm6cvbz2p/delete_product_shopee-1.0.2.qlobot-tool?dl=0",
+            "changelog_desc": "<p>- perubahan icon</p>"
+          },
+          {
+            "version": "1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1LM_Uc3qPP8sF9GyuWFRL1gGjnBNnPa9-",
+            "changelog_desc": "<p>-&nbsp;Optimasi proses delete&nbsp;<br />- Penambahan filter jumlah view<br />- Pembenahan produk terlewati</p>"
+          },
+          {
+            "version": "1.1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1-lz_ZcKZUsSJHbBWvUOK9pI0g8Lltefs",
+            "changelog_desc": "<p>- FIX: Delete multi akun force close<br />- FIX: Filter delete shopee force close<br />- FIX: Filter delete jumlah product tidak sesuai<br />- FIX: Delete tidak terhapus semua</p>"
+          },
+          {
+            "version": "1.1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=139DmnmftcRiSURsnTeJBO32y4Fe1iTbA",
+            "changelog_desc": "<p>- FIX: verifikasi email shopee</p>"
+          },
+          {
+            "version": "1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1BIHjkQ3UN8icwj0n03Rffb4Wlijexnb7",
+            "changelog_desc": "<p>- ADD: delete product belum diupload<br />- ADD: Auto Verif Email Shopee<br />- FIX: auto delete cant read respon data</p>"
+          },
+          {
+            "version": "1.2.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1smZFCPaZUHP5Rf-qIT7Azs78x0WNlXSa",
+            "changelog_desc": "<p>-&nbsp;FIX: Gagal login delete shopee<br />- FIX: Proses autoverif shopee tidak berjalan<br />- FIX: Auto delete shopee Proses force close, gagal delete produk shopee</p>"
+          },
+          {
+            "version": "1.2.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1vgPlOwp9dwrAK1lEmFQJN2b8kYkDYFCq",
+            "changelog_desc": "<p>-&nbsp;FIX: Produk terhapus tetapi failed delete di proses monitor</p>"
+          },
+          {
+            "version": "1.2.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=10nYbbNzov7fCGpeos55mkksNFn1V0eDz",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada login shopee</p>"
+          },
+          {
+            "version": "1.2.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=11wEphgQTvrtiwIT4UzpsCDJnrHmoPtNm",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada halaman login shopee</p>"
+          },
+          {
+            "version": "1.2.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=17YJlEPr0XS7OOOflhrAhQB8oWAfhTq9Z",
+            "changelog_desc": "<p>-&nbsp;FIX: Autologin shopee gagal capture verifikasi akun (baru login)</p>"
+          },
+          {
+            "version": "1.2.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=1c3oawh2KdPPKUX6j-qwv8nlJD5oyk2yd",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada login shopee</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.2.6",
+          "download_url": "https://docs.google.com/uc?export=download&id=1c3oawh2KdPPKUX6j-qwv8nlJD5oyk2yd",
+          "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada login shopee</p>"
+        }
+      },
+      {
+        "product_name": "Delete Product Bukalapak",
+        "product_slug": "delete_product_bukalapak",
+        "product_desc": "Maksimalkan Potensi Produk di Toko Lebih Mudah",
+        "product_long_desc": "<ul>\r\n<li>Delete Produk semua (semua, dijual , tidak dijual, pelanggaran, draft)</li>\r\n<li>Delete semua produk yang belum terjual</li>\r\n<li>Delete produk hanya yang berstatus: tidak dijual</li>\r\n<li>Delete produk hanya yang berstatus: draft</li>\r\n<li>Delete produk hanya yang berstatus: pelanggaran</li>\r\n<li>Delete produk dengan filter tanggal upload produk</li>\r\n<li>Delete produk dengan filter etalase/label produk</li>\r\n<li>Delete produk dengan batas jumlah produk</li>\r\n<li>Reusable cookies (Untuk meminimalisir OTP)</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/delete_product_bukalapak_thumb_2.jpeg",
+          "https://appcenter.qlobot.com/uploads/delete_product_bukalapak_thumb_1.jpeg"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/delete_product_bukalapak_icon.png",
+        "product_url": "#",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/delete_product_bukalapak",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/2",
+        "version": [
+          {
+            "version": "1.0.0",
+            "download_url": "https://dl.dropboxusercontent.com/s/29vtle0k0itulrx/delete_product_bukalapak.qlobot-tool",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://dl.dropboxusercontent.com/s/axi6b0cwo36tagl/delete_product_bukalapak.qlobot-tool?dl=0",
+            "changelog_desc": "<p>- Pembenahan ketika delete 100 page lebih<br />- Pembenahan lanjut ke akun berikutnya untuk delete bulk akun</p>"
+          },
+          {
+            "version": "1.0.2",
+            "download_url": "https://dl.dropboxusercontent.com/s/vvvxp9t0dwc2aos/delete_product_bukalapak-1.0.2.qlobot-tool?dl=0",
+            "changelog_desc": "<p>- pembaruan system<br />- jika login gagal akan lanjut ke user selanjutnya<br />- pembaruan tampilan<br />- pembaruan icon</p>"
+          },
+          {
+            "version": "1.0.3",
+            "download_url": "https://dl.dropboxusercontent.com/s/j7p2673ph820jzf/delete_product_bukalapak-1.0.3.qlobot-tool?dl=0",
+            "changelog_desc": "<p>fix auto delete</p>"
+          },
+          {
+            "version": "1.0.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=1-U3VQtOr1cMh-XGwB5TRZc6NSvX4_8Aj",
+            "changelog_desc": "<p>FIX: Delete produk (success tidak terhapus)<br />FIX: Autologin Bukalapak</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.0.4",
+          "download_url": "https://docs.google.com/uc?export=download&id=1-U3VQtOr1cMh-XGwB5TRZc6NSvX4_8Aj",
+          "changelog_desc": "<p>FIX: Delete produk (success tidak terhapus)<br />FIX: Autologin Bukalapak</p>"
+        }
+      },
+      {
+        "product_name": "Delete Product Tokopedia",
+        "product_slug": "delete_product_tokopedia",
+        "product_desc": "Maksimalkan Potensi Produk di Toko Lebih Mudah",
+        "product_long_desc": "<ul>\r\n<li>Delete Produk semua (semua)</li>\r\n<li>Delete semua produk yang belum terjual</li>\r\n<li>Delete produk hanya yang memiliki status non aktif</li>\r\n<li>Delete produk hanya untuk produk stok habis</li>\r\n<li>Delete produk dengan berdasarkan etalase/label produk</li>\r\n<li>Delete produk dengan batas jumlah produk</li>\r\n<li>Reusable cookies (Untuk meminimalisir OTP)</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/delete_product_tokopedia_thumb_1.jpeg",
+          "https://appcenter.qlobot.com/uploads/delete_product_tokopedia_thumb_1.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/delete_product_tokopedia_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/delete_product_tokopedia",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/3",
+        "version": [
+          {
+            "version": "1.0.0",
+            "download_url": "https://dl.dropboxusercontent.com/s/a7ehp99pp5ayfnp/delete_product_tokopedia.qlobot-tool",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "1.0.2",
+            "download_url": "https://dl.dropboxusercontent.com//s/tthspq29b7frkdb/delete_product_tokopedia-1.0.2.qlobot-tool?dl=0",
+            "changelog_desc": "<p>Update Icon</p>"
+          },
+          {
+            "version": "1.0.3",
+            "download_url": "https://dl.dropboxusercontent.com/s/vxuyjt2y8h65ikd/delete_product_tokopedia-1.0.3.qlobot-tool?dl=0",
+            "changelog_desc": "<p>FIX: Bugs filter products</p>"
+          },
+          {
+            "version": "1.0.4",
+            "download_url": "https://dl.dropboxusercontent.com/s/6kggrzjtjbpghkw/delete_product_tokopedia-1.0.4.qlobot-tool?dl=0",
+            "changelog_desc": "<p>FIX: Filter skip produk terjual</p>"
+          },
+          {
+            "version": "1.0.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=15xaJhofiue8IRdH2iAHbROF1FGw8lUga",
+            "changelog_desc": "<p>FIX: Penyesuaian Auto Login tokopedia</p>"
+          },
+          {
+            "version": "1.0.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=1BQakfMcLPXXQQiJzeRr9PBShrJMwHnJg",
+            "changelog_desc": "<p>Optimasi proses Delete Produk</p>"
+          },
+          {
+            "version": "1.0.7",
+            "download_url": "https://docs.google.com/uc?export=download&id=1-IVQTsqcdM-Gm6EVKtCpgSdVhwI6ZYFk",
+            "changelog_desc": "<p>FIX: Indexing produk</p>"
+          },
+          {
+            "version": "1.0.8",
+            "download_url": "https://docs.google.com/uc?export=download&id=1-yaqtkgo4_Q5Wi4jbJF-FMGhCy5Hg7Y1",
+            "changelog_desc": "<p>- FIX: Indexing product<br />- FIX: Filter Limit produk tidak sesuai<br />- FIX: Filter product bermasalah</p>"
+          },
+          {
+            "version": "1.0.9",
+            "download_url": "https://docs.google.com/uc?export=download&id=16kKbASZI_tsD5X1b9pXVkHode1gTF6QM",
+            "changelog_desc": "<p>-&nbsp;FIX: Delete filter Name etalase<br />- IMPROVE: Pesan error koneksi terputus</p>"
+          },
+          {
+            "version": "1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1JBxmwuNvzSuwUqn2Crcbg8Er4tyNum-D",
+            "changelog_desc": "<p>-&nbsp;FIX: login trigger error<br />- ADD: Auto OTP Tokopedia<br />- FIX: delete multi account</p>"
+          },
+          {
+            "version": "1.1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1o7oRK7Mx5yhUHcWKBDQuSZvLeKtTfS0b",
+            "changelog_desc": "<p>-&nbsp;FIX: Hapus produk pelanggaran tidak terhapus<br />- ADD: Mencatatat judul produk pelanggaran yang di hapus</p>"
+          },
+          {
+            "version": "1.1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1pvi-dRGa3ilCzjz5iZBJvAP5X1jg9maw",
+            "changelog_desc": "<p>-&nbsp;FIXED: Autologin Tokopedia &ldquo;permintaan gagal di proses&rdquo; di beberapa device</p>"
+          },
+          {
+            "version": "1.1.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1vFsX4iDVqa4rk55osVdULZfH8Oju2Tn0",
+            "changelog_desc": "<p>-&nbsp;FIX: Gagal login Tokopedia</p>"
+          },
+          {
+            "version": "1.1.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=1ve-j7Ha6HuoOdzbI93NTep-8zxAKW-tA",
+            "changelog_desc": "<p>-&nbsp;FIX: Skip delete produk tokped, sebagian produk yang tidak bisa terhapus</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.1.4",
+          "download_url": "https://docs.google.com/uc?export=download&id=1ve-j7Ha6HuoOdzbI93NTep-8zxAKW-tA",
+          "changelog_desc": "<p>-&nbsp;FIX: Skip delete produk tokped, sebagian produk yang tidak bisa terhapus</p>"
+        }
+      },
+      {
+        "product_name": "Auto Follow/Unfollow Shopee",
+        "product_slug": "follow_unfollow_shopee",
+        "product_desc": "Lebih Cepat Dekat Dengan Pembeli Potensional",
+        "product_long_desc": "<ul>\r\n<li>Follow user yang men-follow toko lain</li>\r\n<li>Follow user yang telah mereview/sudah melakukan pembelian pada produk tertentu (Coming Soon)</li>\r\n<li>Membatasi jumlah user yang di follow</li>\r\n<li>unfollow akun</li>\r\n<li>Membatasi jumlah user yang di unfollow</li>\r\n<li>Reusable cookies (Untuk meminimalisir OTP)</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/follow_unfollow_shopee_thumb_2.jpeg"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/follow_unfollow_shopee_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/follow_unfollow_shopee",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/4",
+        "version": [
+          {
+            "version": "1.0.0",
+            "download_url": "https://dl.dropboxusercontent.com/s/4bgl9g88d6oexfn/follow_unfollow_shopee.qlobot-tool",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://dl.dropboxusercontent.com//s/2gt5w0ly5pha35w/follow_unfollow_shopee-1.0.1.qlobot-tool?dl=0",
+            "changelog_desc": "<p>perubahan icon</p>"
+          },
+          {
+            "version": "1.0.2",
+            "download_url": "https://dl.dropboxusercontent.com/s/y595si8lmivei24/follow_unfollow_shopee-1.0.2.qlobot-tool?dl=0",
+            "changelog_desc": "<p>penambahan hide/show password</p>"
+          },
+          {
+            "version": "1.0.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=18PPfZK9DB__qljMS7jEl-ae8PXSHYsyN",
+            "changelog_desc": "<p>- Fix bug follow unfollow<br />- Fix bug reusable cookie</p>"
+          },
+          {
+            "version": "1.0.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=1BSaARIZU-D9oGAD5VjmOWbzfasnWHCz0",
+            "changelog_desc": "<p>- Unfollow yang kita ikuti<br />- Support username toko sebagai&nbsp;Source URL</p>"
+          },
+          {
+            "version": "1.0.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=1CqMp9iKL43lukL9aVJvR40j-MqN_wu0i",
+            "changelog_desc": "<p>- Optimasi proses follow/unfollow</p>"
+          },
+          {
+            "version": "1.0.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=136GNV3BMh57tAKQP7kQKVy1P9P9FxQv6",
+            "changelog_desc": "<p>- FIX: verifikasi email shopee</p>"
+          },
+          {
+            "version": "1.0.7",
+            "download_url": "https://docs.google.com/uc?export=download&id=14YudaX-IebjZ_jl0rf8Pmypp9Rv68L18",
+            "changelog_desc": "<p>Mark as Free Tool</p>"
+          },
+          {
+            "version": "1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1AC1NT8fwrUWvokoNL3-eCtB8onBbtz9d",
+            "changelog_desc": "<p>- ADD: follow filter user yg aktif x jam lalu<br />- ADD: Auto Verif Email Shopee</p>"
+          },
+          {
+            "version": "1.1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1rIVSZ07X4EDo2Tp5nUnyohrf7bulhTbv",
+            "changelog_desc": "<p>-&nbsp;FIXED: Proses autoverif Shopee tidak berjalan</p>"
+          },
+          {
+            "version": "1.1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1suHRbP4F1t-RqCkcfOb7t6LW6d0fw-Ie",
+            "changelog_desc": "<p>- FIX: Gagal login Shopee</p>"
+          },
+          {
+            "version": "1.1.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1vmQtij5GIkJ33U-b8HQqgg0vGO0DrUj2",
+            "changelog_desc": "<p>-&nbsp;FIX: Follow unfollow tidak jalan langsung finish (perubahan dari shopee)</p>"
+          },
+          {
+            "version": "1.1.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=10xp1yc0wIabCIFuVf1XtjFSZz8fKxcrl",
+            "changelog_desc": "<p>-&nbsp;FIX: Gagal follow / unfollow shopee<br />- FIX: Perubahan pada login shopee</p>"
+          },
+          {
+            "version": "1.1.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=1IMUJAec1Yzf8Pu9aiSFS5QPk6Cnry_vJ",
+            "changelog_desc": "<p>- FIX: Perubahan pada login shopee<br />- FIX: Follow/unfollow shopee proses force close setelah indixing 50 page</p>"
+          },
+          {
+            "version": "1.1.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=18dPlBsJ6A1rVqOJz1LqtKqcDvQOlpKFz",
+            "changelog_desc": "<p>-&nbsp;FIX: Gagal Follow/Unfollow Shopee: PROCESS FORCE CLOSE!</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.1.6",
+          "download_url": "https://docs.google.com/uc?export=download&id=18dPlBsJ6A1rVqOJz1LqtKqcDvQOlpKFz",
+          "changelog_desc": "<p>-&nbsp;FIX: Gagal Follow/Unfollow Shopee: PROCESS FORCE CLOSE!</p>"
+        },
+        "free": true
+      },
+      {
+        "product_name": "Online Shopee",
+        "product_slug": "online_shopee",
+        "product_desc": "Auto Online Shopee",
+        "product_long_desc": "<p>Online Shopee adalah tool yang dibuat dengan tujuan utama untuk memperbaharui status terakhir online pada akun seller shopee secara berkala dengan mudah. Ini berfungsi agar akun shopee kamu terus terlihat online (aktif).</p>\r\n<p>Fitur:</p>\r\n<ul>\r\n<li>Multi account auto online</li>\r\n<li>Menjalankan secara terus menerus (loop procces)</li>\r\n<li>Reusable cookies (meminimalkan login account)</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/online_shopee_thumb_0.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/online_shopee_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/online_shopee",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/32",
+        "version": [
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=1wWujR4Cg6pYOyZb6fHr9jm4E5ivC-p-O",
+            "changelog_desc": "<p>- Rilis Awal</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=11F3xjjwkdG6hPaW2kMBQM5TY4V5LbBBT",
+            "changelog_desc": "<p>-&nbsp;FIX: Gagal proses berhenti (skip ketika failed)<br />- FIX: Perubahan pada login shopee<br />- FIX: Gagal mendapatkan terakhir online</p>"
+          },
+          {
+            "version": "1.0.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=136eDWZtYtuMq1Q1-GIPk5jk1PHhm_vTp",
+            "changelog_desc": "<p>-&nbsp;FIX: Gagal mendapatkan terakhir online</p>"
+          },
+          {
+            "version": "1.0.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=17YrI1eYeW2-cfk_Ya8JuND7Kdc3r1c2Q",
+            "changelog_desc": "<p>-&nbsp;FIX: Autologin shopee gagal capture verifikasi akun (baru login)</p>"
+          },
+          {
+            "version": "1.0.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=1_tvS6pMTy6zCIscL5WuNssqYyug8T-pM",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada login shopee</p>"
+          },
+          {
+            "version": "1.0.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=17za-SS2vjF9_NhMgdJdSgjEMjTjrOHYX",
+            "changelog_desc": "<p>-&nbsp;FIX: Gagal mendapatkan terakhir online shopee</p>"
+          },
+          {
+            "version": "1.0.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=18_yYB4mSbvPY05y__Pjq1uU9gtDCzOuS",
+            "changelog_desc": "<p>-&nbsp;FIX: Gagal mendapatkan terakhir online shopee</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.0.6",
+          "download_url": "https://docs.google.com/uc?export=download&id=18_yYB4mSbvPY05y__Pjq1uU9gtDCzOuS",
+          "changelog_desc": "<p>-&nbsp;FIX: Gagal mendapatkan terakhir online shopee</p>"
+        },
+        "free": true
+      },
+      {
+        "product_name": "Libur Toko Tokopedia",
+        "product_slug": "libur_toko_tokopedia",
+        "product_desc": "Auto Libur Toko Tokopedia",
+        "product_long_desc": "<p>Auto Libur Tokopedia berfungsi untuk mengatur tanggal toko libur secara otomatis.</p>\r\n<p>Tools ini sangat berguna pada saat kamu memiliki banyak toko dan ingin menghentikan transaksi sementara (seperti pada saat lebaran) supaya tidak membatalkan transaksi yang masuk pada saat kamu / tim sedang libur. Hal ini akan membuat reputasi toko kamu tetap baik.</p>",
+        "product_thumb": [],
+        "product_icon": "https://appcenter.qlobot.com/uploads/libur_toko_tokopedia_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/libur_toko_tokopedia",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/33",
+        "version": [
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=12hgnCDoh8YdWgXvhsbmMMlXMh-JKPLJ4",
+            "changelog_desc": "<p>Rilis Awal</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.0",
+          "download_url": "https://docs.google.com/uc?export=download&id=12hgnCDoh8YdWgXvhsbmMMlXMh-JKPLJ4",
+          "changelog_desc": "<p>Rilis Awal</p>"
+        },
+        "free": true
+      },
+      {
+        "product_name": "Buka-Tutup Toko Shopee",
+        "product_slug": "buka_tutup_toko_shopee",
+        "product_desc": "Auto Buka/Tutup Toko Marketplace untuk Multi Akun Sekaligus",
+        "product_long_desc": "<blockquote>\r\n<p><strong>PERINGATAN</strong>: Dalam beberapa kasus yang kami temui, Akun toko shopee yang di-tutup, akan meminta OTP saat di buka kembali.</p>\r\n<p>Sehingga sangat kami sarankan untuk memastikan Nomor HP untuk akun toko Shopee Anda masih ada/masih aktif.</p>\r\n<p>Jika anda tidak menginginkan resiko atas permintaan OTP, anda bisa menggunakan Tool <a href=\"https://appcenter.qlobot.com/store/tool/buka_tutup_toko_shopee\">Mass Archive Produk</a></p>\r\n</blockquote>\r\n<hr />\r\n<p>Buka-Tutup Toko Shopee berfungsi untuk mengubah status toko shopee menjadi Buka atau Tutup secara otomatis.</p>\r\n<p>Tool ini akan sangat berguna pada saat Anda memiliki banyak toko dan ingin menghentikan transaksi sementara (seperti pada saat Lebaran) supaya tidak membatalkan transaksi yang masuk pada saat Anda/Tim sedang libur. Dengan hal itu, akan menjaga reputasi toko tetap baik.</p>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/buka_tutup_toko_shopee_thumb_0.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/buka-tutup-toko_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/buka_tutup_toko_shopee",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/22",
+        "version": [
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=19MXrgVjKmi3FO7LAQlpP2pRXh2lVDOzD",
+            "changelog_desc": "<p>- Init rilis</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=14ezKcGEZGDWI7n4FI6kEE3lHKv6t19Tl",
+            "changelog_desc": "<p>Mark as Free Tool</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.0.1",
+          "download_url": "https://docs.google.com/uc?export=download&id=14ezKcGEZGDWI7n4FI6kEE3lHKv6t19Tl",
+          "changelog_desc": "<p>Mark as Free Tool</p>"
+        },
+        "free": true
+      },
+      {
+        "product_name": "Mass Archive Product Shopee",
+        "product_slug": "mass_archive_product_shopee",
+        "product_desc": "Arsipkan atau Tampilkan Produk di Marketplace secara Otomatis",
+        "product_long_desc": "<p>Sebagai seller di marketplace, salah satu resiko pada saat Anda/Tim Anda ingin libur dengan waktu yang cukup lama adalah penolakan transaksi yang dapat merusak reputasi toko.</p>\r\n<p>Maka, jika anda menhentikan transaksi di toko anda untuk sementara waktu, selain menggunakan tool <a href=\"https://appcenter.qlobot.com/store/tool/buka-tutup-toko-shopee\">Buka-Tutup Toko</a> anda bisa menggunakan&nbsp;Mass Archive Product</p>\r\n<p>Mass Archive Product adalah tool yang berfungsi untuk mengatur status produk di toko Shopee menjadi <strong>Diarsipkan</strong> atau <strong>Ditampilkan</strong>.</p>\r\n<h3>Fitur</h3>\r\n<ul>\r\n<li>Update status produk menjadi&nbsp;<span style=\"text-decoration: underline;\">Diarsipkan</span> atau <span style=\"text-decoration: underline;\">Ditampilkan</span> secara otomatis</li>\r\n<li>Multi Akun Toko dalam Sekali perintah</li>\r\n</ul>",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/mass_archive_product_shopee_thumb_0.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/mass-archive-product_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/mass_archive_product_shopee",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/24",
+        "version": [
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=19yW5iC9CD44s2dWzdr_RVNttSqJALsp8",
+            "changelog_desc": "<p>- Init Rilis</p>"
+          },
+          {
+            "version": "1.0.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=14c6a2rXeT-trX3FGPuX5XYZHV8zEljz_",
+            "changelog_desc": "<p>Mark as Free Tool</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.0.1",
+          "download_url": "https://docs.google.com/uc?export=download&id=14c6a2rXeT-trX3FGPuX5XYZHV8zEljz_",
+          "changelog_desc": "<p>Mark as Free Tool</p>"
+        },
+        "free": true
+      },
+      {
+        "product_name": "Delete Product Lite",
+        "product_slug": "delete_product",
+        "product_desc": "Auto Delete Product Lite",
+        "product_long_desc": "",
+        "product_thumb": [
+          "https://appcenter.qlobot.com/uploads/delete_product_thumb_1.png"
+        ],
+        "product_icon": "https://appcenter.qlobot.com/uploads/delete_product_icon.png",
+        "product_url": "",
+        "product_help_url": "",
+        "detail_url": "https://appcenter.qlobot.com/store/tool/delete_product",
+        "get_license_url": "https://appcenter.qlobot.com/store/orders/26",
+        "version": [
+          {
+            "version": "1.0",
+            "download_url": "https://docs.google.com/uc?export=download&id=14QVkNVHd7jDMFoUdvNielVOFaUI1743j",
+            "changelog_desc": "<p>Rilis Pertama</p>"
+          },
+          {
+            "version": "1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1GEbeAY0Ve5GnY5LVK29OofrI0CPBi5Aa",
+            "changelog_desc": "<p>- FIX: auto delete cant read respon data<br />- ADD: Auto OTP Tokopedia dan verif Email Shopee</p>"
+          },
+          {
+            "version": "1.1.1",
+            "download_url": "https://docs.google.com/uc?export=download&id=1J1UI_ShVMATQI090tc6u9oGDXaMG4KFt",
+            "changelog_desc": "<p>-&nbsp;FIX: delete bukalapak failed</p>"
+          },
+          {
+            "version": "1.1.2",
+            "download_url": "https://docs.google.com/uc?export=download&id=1pqZdaKqzpn8zvEtNXlKoepZbo7aOw7QG",
+            "changelog_desc": "<p>- FIXED: delete toped waktu pertama kali jalan force close di tengah jalan<br />- FIXED: login permintaan gagal diproses</p>"
+          },
+          {
+            "version": "1.1.3",
+            "download_url": "https://docs.google.com/uc?export=download&id=1rEKN01V_ZiLnPTcn-dNnMRJx_Vsrkpj5",
+            "changelog_desc": "<p>-&nbsp;FIXED: Proses autoverif Shopee tidak berjalan</p>"
+          },
+          {
+            "version": "1.1.4",
+            "download_url": "https://docs.google.com/uc?export=download&id=1svo1OTT-cgkDiQQWXbob3vydalqm5UCn",
+            "changelog_desc": "<p>- FIX: Gagal login delete shopee</p>"
+          },
+          {
+            "version": "1.1.5",
+            "download_url": "https://docs.google.com/uc?export=download&id=1vqV_isUBCb1OXm2lTPcNpe493eFPp42W",
+            "changelog_desc": "<p>-&nbsp;FIX: Autologin detele Tokopedia<br />- FIX: Produk terhapus tetapi failed delete di proses monitor<br />- FIX: Skip delete produk tokped, sebagian produk yang tidak bisa terhapus</p>"
+          },
+          {
+            "version": "1.1.6",
+            "download_url": "https://docs.google.com/uc?export=download&id=1105WI7eNFM5rWf6pVXID7JLnlVkK0LYh",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada login shopee</p>"
+          },
+          {
+            "version": "1.1.7",
+            "download_url": "https://docs.google.com/uc?export=download&id=13x3cdBPZSP5XpEk3FAmX-9WIN9tPoS7K",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada login shopee</p>"
+          },
+          {
+            "version": "1.1.8",
+            "download_url": "https://docs.google.com/uc?export=download&id=1Ghq7ZWsEphXzNLSqWTq1KfqgO7HovvRO",
+            "changelog_desc": "<p>-&nbsp;FIX: Perubahan pada login shopee</p>"
+          },
+          {
+            "version": "1.1.9",
+            "download_url": "https://docs.google.com/uc?export=download&id=19hgWGrZN_lGSXx32TuIHoThe3e63vmy5",
+            "changelog_desc": "<p>-&nbsp;FIX: Delete lite tokopedia via etalase</p>"
+          }
+        ],
+        "last_version": {
+          "version": "1.1.9",
+          "download_url": "https://docs.google.com/uc?export=download&id=19hgWGrZN_lGSXx32TuIHoThe3e63vmy5",
+          "changelog_desc": "<p>-&nbsp;FIX: Delete lite tokopedia via etalase</p>"
+        },
+        "free": true
+      }
+    ]
+  }
