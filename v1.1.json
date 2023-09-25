@@ -1,0 +1,180 @@
+{
+  "success": true,
+  "licenses": [
+    {
+      "valid_license": true,
+      "user": {
+        "user_name": "Tai Ahmad Saekoni",
+        "user_email": "teleknules@gmail.com"
+      },
+      "product": {
+        "product_id": "uploader_lazada",
+        "product_name": "Uploader Lazada",
+        "latest_version": {
+          "version": "1.0.5",
+          "download_url": "https://docs.google.com/uc?export=download&id=1z51WuLmKs74ER8EFXAFs9s_Uy3_PSydE"
+        }
+      },
+      "license": {
+        "license_key": "KVZNGB42X8...",
+        "lifetime_days": 365
+      }
+    },
+    {
+      "valid_license": true,
+      "user": {
+        "user_name": "Tai Ahmad Saekoni",
+        "user_email": "teleknules@gmail.com"
+      },
+      "product": {
+        "product_id": "products_grabber_uploader",
+        "product_name": "Scraper Uploader Products",
+        "latest_version": {
+          "version": "1.6.1",
+          "download_url": "https://docs.google.com/uc?export=download&id=1iCp1-ZmFyoDovywiZyrbZNI7jTHbK3tx"
+        }
+      },
+      "license": {
+        "license_key": "KVZNGB42X8...",
+        "lifetime_days": 365
+      }
+    },
+    {
+      "valid_license": true,
+      "user": {
+        "user_name": "Tai Ahmad Saekoni",
+        "user_email": "teleknules@gmail.com"
+      },
+      "product": {
+        "product_id": "monitoring_toko",
+        "product_name": "Monitoring Toko",
+        "latest_version": {
+          "version": "1.2.7",
+          "download_url": "https://docs.google.com/uc?export=download&id=1x6rMBUTPunJqP4JBMyUW4Yi1wjU8Psv5"
+        }
+      },
+      "license": {
+        "license_key": "KVZNGB42X8...",
+        "lifetime_days": 365
+      }
+    },
+    {
+      "valid_license": true,
+      "user": {
+        "user_name": "Tai Ahmad Saekoni",
+        "user_email": "teleknules@gmail.com"
+      },
+      "product": {
+        "product_id": "watermark_image",
+        "product_name": "Watermark Image",
+        "latest_version": {
+          "version": "1.0.1",
+          "download_url": "https://dl.dropboxusercontent.com/s/nl1lxgpu0i4spil/watermark_image-1.0.1.qlobot-tool?dl=0"
+        }
+      },
+      "license": {
+        "license_key": "KVZNGB42X8...",
+        "lifetime_days": 365
+      }
+    },
+    {
+      "valid_license": true,
+      "user": {
+        "user_name": "Tai Ahmad Saekoni",
+        "user_email": "teleknules@gmail.com"
+      },
+      "product": {
+        "product_id": "supplier_search",
+        "product_name": "Supplier Search",
+        "latest_version": {
+          "version": "1.1.3",
+          "download_url": "https://docs.google.com/uc?export=download&id=1y-kzb60bXGbHjI0wX_kxKHDMpKaAalcG"
+        }
+      },
+      "license": {
+        "license_key": "KVZNGB42X8...",
+        "lifetime_days": 365
+      }
+    },
+    {
+      "valid_license": true,
+      "user": {
+        "user_name": "Tai Ahmad Saekoni",
+        "user_email": "teleknules@gmail.com"
+      },
+      "product": {
+        "product_id": "broadcast_chat_shopee",
+        "product_name": "Broadcast Chat Shopee",
+        "latest_version": {
+          "version": "1.1.2",
+          "download_url": "https://docs.google.com/uc?export=download&id=1uDnlW_RjzvD00Jugnmxgployr4x6UsQW"
+        }
+      },
+      "license": {
+        "license_key": "KVZNGB42X8...",
+        "lifetime_days": 365
+      }
+    },
+    {
+      "valid_license": true,
+      "user": {
+        "user_name": "Tai Ahmad Saekoni",
+        "user_email": "teleknules@gmail.com"
+      },
+      "product": {
+        "product_id": "delete_product_shopee",
+        "product_name": "Delete Product Shopee",
+        "latest_version": {
+          "version": "1.2.2",
+          "download_url": "https://docs.google.com/uc?export=download&id=1vgPlOwp9dwrAK1lEmFQJN2b8kYkDYFCq"
+        }
+      },
+      "license": {
+        "license_key": "KVZNGB42X8...",
+        "lifetime_days": 365
+      }
+    },
+    {
+      "valid_license": true,
+      "user": {
+        "user_name": "Tai Ahmad Saekoni",
+        "user_email": "teleknules@gmail.com"
+      },
+      "product": {
+        "product_id": "delete_product_bukalapak",
+        "product_name": "Delete Product Bukalapak",
+        "latest_version": {
+          "version": "1.0.4",
+          "download_url": "https://docs.google.com/uc?export=download&id=1-U3VQtOr1cMh-XGwB5TRZc6NSvX4_8Aj"
+        }
+      },
+      "license": {
+        "license_key": "KVZNGB42X8...",
+        "lifetime_days": 365
+      }
+    },
+    {
+      "valid_license": true,
+      "user": {
+        "user_name": "Tai Ahmad Saekoni",
+        "user_email": "teleknules@gmail.com"
+      },
+      "product": {
+        "product_id": "delete_product_tokopedia",
+        "product_name": "Delete Product Tokopedia",
+        "latest_version": {
+          "version": "1.1.4",
+          "download_url": "https://docs.google.com/uc?export=download&id=1ve-j7Ha6HuoOdzbI93NTep-8zxAKW-tA"
+        }
+      },
+      "license": {
+        "license_key": "KVZNGB42X8...",
+        "lifetime_days": 365
+      }
+    }
+  ],
+  "launcer_latest_version": {
+    "version": "1.8",
+    "download_url": "https://appcenter.qlobot.com/downloads/qlobot_launcher-1.8.exe"
+  }
+}
